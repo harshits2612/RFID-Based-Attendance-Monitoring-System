@@ -23,18 +23,20 @@ The RFID-Based Attendance Monitoring System allows students or employees to mark
 
 ## 🧩 Components Used
 
-| Component                 | Quantity |
-|--------------------------|----------|
-| Arduino Uno              | 1        |
-| RFID Reader (RC522)      | 1        |
-| RFID Tags/Cards          | Multiple |
-| 16x2 LCD with I2C Module | 1        |
-| Buzzer (optional)        | 1        |
-| RTC Module (DS3231)      | 1 (optional) |
-| SD Card Module (optional)| 1        |
-| Breadboard & Jumpers     | As needed |
+| Component Name      | Description                                    |
+| ------------------- | ---------------------------------------------- |
+| Arduino Uno         | Main microcontroller board (ATmega328P)        |
+| RFID Module (RC522) | Reads RFID tags/cards                          |
+| LCD Display (20x4)  | Displays attendance status and info            |
+| RTC Module (DS3231) | Provides real-time date & time                 |
+| Servo Motor         | Controls physical access (like opening a door) |
+| Push Buttons        | Manual input (admin/reset/next)                |
+| Red & Green LEDs    | Status indication (access granted/denied)      |
+| Buzzer              | Audio alert for feedback                       |
+| Resistors, Wires    | For connections and signal integrity           |
+| Breadboard          | Easy prototyping and circuit mounting          |
 
----
+
 
 ## 🔌 Wiring Overview
 
